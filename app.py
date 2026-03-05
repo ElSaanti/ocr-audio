@@ -55,7 +55,7 @@ st.divider()
 
 # 2. SELECCIÓN DE FUENTE
 st.subheader("Elige la fuente de la imagen")
-cam_ = st.checkbox("Usar Cámara")
+cam_ = st.checkbox(" 📷 Usar Cámara")
 
 text = "" # Inicializamos la variable
 
