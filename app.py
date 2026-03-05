@@ -50,11 +50,6 @@ with st.expander("📖 Cómo usar este traductor", expanded=True):
         3. **Traducción:** En el panel izquierdo, elige los idiomas y el acento.
         4. **Audio:** Haz clic en el botón 'Convertir' para generar la voz.
         """)
-    with col2:
-        try:
-            st.image(Image.open('traductor.jpg'), use_container_width=True)
-        except:
-            st.write("📸")
 
 st.divider()
 
